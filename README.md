@@ -26,3 +26,27 @@
 ---
 
 ## Project Structure
+taskmaster/
+├── backend/ # C# .NET API
+│ ├── Controllers/ # API endpoints
+│ ├── Models/ # Task models
+│ ├── Services/ # Business logic
+│ └── Program.cs # App entry point
+├── frontend/ # React App
+│ ├── src/
+│ │ ├── components/ # UI components
+│ │ ├── pages/ # App pages
+│ │ ├── services/ # API calls
+│ │ └── App.js # Root component
+│ └── package.json # Frontend dependencies
+└── README.md
+
+---
+
+## Installation & Running
+
+### Backend (C#/.NET Core)
+1. Navigate to `/backend`  
+2. Restore packages:  
+```bash
+dotnet restore
